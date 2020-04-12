@@ -1,1 +1,244 @@
-blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}ul{list-style:none}button,input,select,textarea{margin:0}*,:after,:before,html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{max-width:100%}audio,embed,iframe,img,object,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}body{min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;background-color:#222}h1{font-size:80px;font-weight:600;color:#329af0;letter-spacing:1.52px;margin-bottom:7.5px}h2{font-size:40px;font-weight:400;color:#000;letter-spacing:.76px;margin-top:7.5px}.hidden{visibility:hidden}#mcm-logo{position:absolute;height:100vh;width:100vw;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}#mcm-logo #Master-Shape{-webkit-animation:.55s linear 0 infinite mcm-blink;animation:.55s linear 0 infinite mcm-blink;will-change:fill;-webkit-transform:rotate(1turn);transform:rotate(1turn)}.mcm-content-container{position:relative;z-index:5;height:100vh;text-align:center}.mcm-content-container,.mcm-footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.mcm-footer{position:absolute;bottom:25px;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mcm-info{max-width:500px;margin-bottom:50px}.mcm-info h5{font-size:22px;font-weight:400;color:#ececec;opacity:.7;letter-spacing:0}#loading-line{color:#ececec}.mcm-info p{opacity:.5;line-height:21px;width:65%;margin:0 auto}.mcm-cf-meta,.mcm-info p{font-size:14px;font-weight:400;color:#ececec;letter-spacing:0}.mcm-cf-meta{opacity:.2}@-webkit-keyframes mcm-blink{0%{fill:#f5f7fa}67%{fill:#fcfdff}to{fill:#f5f7fa}}@keyframes mcm-blink{0%{fill:#0f192c}67%{fill:#0f192c}to{fill:#0f192c}}@media (max-width:500px){h1{font-size:60px}h2{font-size:30px}}.cfbox{display:none}
+
+        
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+	margin: 0;
+	padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: 400
+}
+
+ul {
+	list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+	margin: 0
+}
+
+*,
+:after,
+:before,
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+	max-width: 100%
+}
+
+audio,
+embed,
+iframe,
+img,
+object,
+video {
+	height: auto;
+	max-width: 100%
+}
+
+iframe {
+	border: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td,
+th {
+	padding: 0;
+	text-align: left
+}
+
+body {
+	min-height: 100vh;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	background-color: rgb(34, 34, 34)
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 600;
+	color: #329af0;
+	letter-spacing: 1.52px;
+	margin-bottom: 7.5px
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 400;
+	color: #000;
+	letter-spacing: .76px;
+	margin-top: 7.5px
+}
+
+.hidden {
+	visibility: hidden
+}
+
+#mcm-logo {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+#mcm-logo #Master-Shape {
+	-webkit-animation: .55s linear 0s infinite mcm-blink;
+	animation: .55s linear 0s infinite mcm-blink;
+	will-change: fill;
+	-webkit-transform: rotate(1turn);
+	transform: rotate(1turn)
+}
+
+.mcm-content-container {
+	position: relative;
+	z-index: 5;
+	height: 100vh;
+	text-align: center
+}
+
+.mcm-content-container,
+.mcm-footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.mcm-footer {
+	position: absolute;
+	bottom: 25px;
+	width: 100%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.mcm-info {
+	max-width: 500px;
+	margin-bottom: 50px
+}
+
+.mcm-info h5 {
+	font-size: 22px;
+	font-weight: 400;
+	color: rgb(236, 236, 236);
+	opacity: .7;
+	letter-spacing: 0
+}
+
+#loading-line {
+    color: rgb(236, 236, 236)
+}
+
+.mcm-info p {
+	opacity: .5;
+	line-height: 21px;
+	width: 65%;
+	margin: 0 auto
+}
+
+.mcm-cf-meta,
+.mcm-info p {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(236, 236, 236);
+	letter-spacing: 0
+}
+
+.mcm-cf-meta {
+	opacity: .2
+}
+
+@-webkit-keyframes mcm-blink {
+	0% {
+		fill: #f5f7fa
+	}
+	67% {
+		fill: #fcfdff
+	}
+	to {
+		fill: #f5f7fa
+	}
+}
+
+@keyframes mcm-blink {
+	0% {
+		fill: #0f192c 
+	}
+	67% {
+		fill: #0f192c 
+	}
+	to {
+		fill: #0f192c 
+	}
+}
+
+@media (max-width:500px) {
+	h1 {
+		font-size: 60px
+	}
+	h2 {
+		font-size: 30px
+	}
+}
+
+.cfbox {
+	display: none;
+}
+
+
+      
